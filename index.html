@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CNN Home Page</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapse_Navbar"
+        ></button>
+        <a href="#" target="_blank" rel="noopener noreferrer"
+          ><i class="bi bi-list" id="toggler"></i
+        ></a>
+        <a class="navbar-brand" href="#">
+          <img src="images/cnn-logo.png" alt="logo" class="logo" />
+        </a>
+
+        <div class="collapse navbar-collapse" id="collapse_Navbar">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">World</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Politics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Business</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Opinion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Health</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Entertainment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Style</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Travel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Video</a>
+            </li>
+          </ul>
+        </div>
+        <div class="right col-sm">
+          <span>Audio</span>
+          <span>Live TV</span>
+          <i class="bi bi-search"></i>
+          <button>Log In</button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="headlines">
+        <span class="headline" id="first">India train crash</span>
+        <span class="headline">Kathleen Folbigg</span>
+        <span class="headline">Zlatan Ibrahimovic</span>
+        <span class="headline">Poland protests</span>
+        <span class="headline">Apple 'mixed reality' headset</span>
+        <span class="headline">Virginia plane crash</span>
+        <!-- <span class="headline">Prince Harry</span> -->
+        <span class="headline">Taylor Swift</span>
+        <span class="headline">Lionel Messi</span>
+        <span class="headline">French Open</span>
+      </div>
+
+      <section class="container news-container">
+        <div class="row first-section">
+          <div class="col-12 col-lg-6 first-1">
+            <h2>
+              Ukraine 'switching to offensive actions' in some areas, officials
+              say
+            </h2>
+            <img
+              src="images/soldiers-donetsk-ukraine-0531.jpg"
+              alt="Ukrainian soldiers fire a Caesar self-propelled howitzer towards Russian troops, amid Russia's attack on Ukraine, Ukraine May 31, 2023"
+            />
+
+            <h5>
+              Deputy defense minister's comments come as Kyiv refutes Russian
+              claims of repelling 'large-scale offensive' on Donetsk front line
+            </h5>
+            <ul>
+              <li>
+                <b>CNN Exclusive:</b> Ukraine has cultivated agents in Russia to
+                stage attacks: sources
+              </li>
+              <li>
+                Kyiv warns against loose talk as Russia claims to repel
+                'large-scale' offensive'
+              </li>
+              <li>See what top US military official says about Ukraine</li>
+              <li>
+                <b>CNN Exclusive:</b> Ukraine 'well prepared' for
+                counteroffensive, top US general says
+              </li>
+              <li>
+                Republican candidate breaks with Trump on Putin and Ukraine
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg first-mid">
+            <div class="news">
+              <img
+                src="images/plane-crash-scene-virginia.jpg"
+                alt="Plane crash in Virginia"
+              />
+              <h5>
+                Unresponsive plane that crashed as US fighter jets were
+                scrambled left 'crater' with few recognizable pieces
+              </h5>
+            </div>
+            <div class="news">
+              <img
+                src="images/india-train-crash-060323.jpg"
+                alt="Train crash in India"
+              />
+              <h5>
+                Hospitals and morgues reach capacity as hundreds of India train
+                crash victims sustained 'unimaginable' injuries
+              </h5>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg first-right">
+            <div class="news">
+              <img
+                src="images/bison-yellowstone-national-park-file-restricted-102821.jpg"
+                alt="Baby elk in Yellowstone National Park"
+              />
+              <h5>Yellowstone tourists put baby elk in their car</h5>
+            </div>
+
+            <ul class="live-updates">
+              <li>
+                Live Updates: Apple set to hold most anticipated product event
+                in years
+              </li>
+              <li>
+                Breaking with Trump and DeSantis, Haley made case for Ukraine in
+                CNN town hall
+              </li>
+              <li>Case for 2023 US recession is crumbling</li>
+              <li>
+                Bodies of 54 Uganda soldiers killed by al Shabaab discovered
+              </li>
+              <li>
+                Trump attacks Kayleigh McEnany. Hear her predecessor respond
+              </li>
+              <li>
+                Saudi Arabia needs more than higher oil prices to fund its grand
+                plans
+              </li>
+              <li>
+                Palestinian boy, 3, dies of injuries days after being shot by
+                Israeli troops
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row second-section">
+          <div class="col-12 col-lg-3 second-1">
+            <h6>MORE TOP STORIES</h6>
+            <div class="russian-star">
+              <img
+                src="images/daria-kasatkina-060423.jpg"
+                alt="Russian vs Ukrainian female tennis players"
+              />
+              <h5>
+                Russian tennis star gives Ukrainian opponent thumbs up after
+                match
+              </h5>
+            </div>
+            <ul class="updates">
+              <li>
+                Prince Harry's battle against UK tabloids to reach most dramatic
+                stage so far
+              </li>
+              <li>Volkswagen unveils new microbus</li>
+              <li>Vaping helps fuel huge rise in bad behavior on planes</li>
+              <li>
+                Gunmen kill dozens and kidnap children in northern Nigeria
+              </li>
+              <li>
+                Mother who served 20 years for killing her four babies pardoned
+              </li>
+              <li>
+                Former New Zealand leader Jacinda Ardern honored as a dame
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-lg-6 second-mid">
+            <h6>FEATURED</h6>
+            <div class="news">
+              <img
+                src="images/croatia-dalmatia-trogir-zadar-kornati-national-park-card-image.jpg"
+                alt="mediterranean coast"
+              />
+              <h4>
+                The stunning Mediterranean coastline with hardly any tourists
+              </h4>
+            </div>
+            <ul class="feat-extra">
+              <li id="feat-extra-1">
+                <img
+                  src="images/dommaraju-gukesh-chess-player-file-2022.jpg"
+                  alt="17-year-old chess player Dommaraju Gukesh"
+                />
+                Seventeen-year-old Dommaraju Gukesh wins chess' battle of the
+                prodigies
+              </li>
+              <li>
+                <img
+                  src="images/barbie-movie.jpg"
+                  alt="Barbie pink paint movie"
+                />'Barbie' movie's pink paint splurge led to global shortage,
+                production designer says
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-lg second-end">
+            <h6>SPOTLIGHT</h6>
+            <ul class="spotlight-g">
+              <li>
+                <img
+                  src="images/poland-democracy-protest.jpg"
+                  alt="Democracy protest in Poland"
+                />
+                Poland's opposition holds huge protest
+              </li>
+              <li>
+                <img
+                  src="images/rvs-la.jpg"
+                  alt="RVs where people live in Los Angeles streets"
+                />Thousands are living in RVs on Los Angeles streets. Leaders
+                want to shrink the number, but the solution is elusive
+              </li>
+              <li>
+                <img
+                  src="images/leighton-taiwan-analysis.jpg"
+                  alt="Leighton's China-Taiwan conflict analysis"
+                />
+                Map shows why a China, Taiwan conflict would be devastating for
+                world
+              </li>
+              <li>
+                <img
+                  src="images/robert-oppenheimer-restricted.jpg"
+                  alt="robert-oppenheimer"
+                />What Oppenheimer's reading list can teach us
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row third-section">
+          <div class="col-12 col-lg third-1">
+            <h6>TAKE A CLOSER LOOK</h6>
+            <div class="jimmy-c">
+              <img
+                src="images/jimmy-carter-legacy-refugees.jpg"
+                alt="Pres. Jimmy Carter is seated at his desk in the Oval Office prior to delivering his message on energy."
+              />
+              <h4>
+                Jimmy Carter took steps that weren't popular. They're still
+                shaping the US decades later
+              </h4>
+            </div>
+            <ul class="closer-look-g">
+              <li>
+                <img
+                  src="images/roman-tweezers-discovery.jpg"
+                  alt="An English Heritage conservator examines a collection of tweezers used to remove armpit hair from Roman men and women at Wroxeter Roman City, Shropshire -- a Roman town once as large as Pompeii."
+                />
+
+                Discovery reveals ancient Romans obsessively plucked their hairs
+              </li>
+              <li>
+                <img
+                  src="images/gaokao-studying-china-file-restricted-060523.jpg"
+                  alt="JIAOZUO, CHINA - JUNE 05: Senior three students study in the
+                classroom to prepare for the upcoming 2023 National College
+                Entrance Exam (aka Gaokao) on June 5, 2023 in Jiaozuo, Henan
+                Province of China."
+                />More people than ever are taking China's college entrance exam
+              </li>
+              <li>
+                <img
+                  src="images/parker-solar-probe-illustration.jpg"
+                  alt="An illustration of Parker Solar Probe approaching the Sun."
+                />
+                Solar probe flies near enough to the sun's surface to make a key
+                discovery
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-lg-6 third-mid">
+            <div class="gaia-ntu">
+              <img
+                src="images/gaia-ntu-timber-building.jpg"
+                alt="Gaia Ntu, Asia's largest timber building"
+              />
+              <h4>
+                'Like entering a forest': Inside Asia's largest timber building
+              </h4>
+            </div>
+            <ul class="third-mid-list">
+              <li id="tml-first">
+                <video
+                  src="images/everest-rescue.mp4"
+                  autoplay
+                  loop
+                  muted
+                ></video>
+                Sherpa who saved climber in Everest death zone says it was
+                hardest rescue 'in my life'
+              </li>
+              <li>
+                <img
+                  src="images/stolen-antiquities-rome.jpg"
+                  alt="Stolen artifacts on display during a press conference in Rome. The set of artifacts was in possession of Robin Symes, a trafficker of cultural assets"
+                />Trove of 750 looted artifacts returned to Italy from disgraced
+                British dealer
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-lg third-end">
+            <h6>TAKE A BREAK</h6>
+            <div class="arnold">
+              <img
+                src="images/arnold-schwarzenegger-052223.jpg"
+                alt="Arnold Schwarzenegger"
+              />
+              <h4>
+                Arnold Schwarzenegger explains how he told wife about his secret
+                son
+              </h4>
+            </div>
+            <ul class="t-end-list">
+              <li>
+                <img
+                  src="images/gucci-loafers-062316-restricted.jpg"
+                  alt="A guest wearing black Gucci loafer outside Louis Vuitton during the Paris Fashion Week Menswear Spring/Summer 2017"
+                />70 years on, Gucci's horsebit loafer is still a coveted status
+                symbol
+              </li>
+              <li>
+                <img
+                  src="images/tom-holland-taking-acting-break.png"
+                  alt="tom holland taking acting break mental health the crowded room"
+                />'The show did break me': Tom Holland reveals why he's taking
+                acting break
+              </li>
+              <li>
+                <img
+                  src="images/samuel-fosso-story-card-1.jpg"
+                  alt="Samuel Fosso"
+                />'Man with a thousand faces' wins prestigious photography prize
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row fourth-section">
+          <h2>Featured Sections</h2>
+          <div class="row feat-sections-row1">
+            <div class="col-12 col-lg business">
+              <h6>CNN BUSINESS</h6>
+              <div class="business-news">
+                <img src="images/federal-reserve-050223.jpg" alt="" />
+                <h4>Markets may be overly optimistic about the Fed</h4>
+                <ul class="business-g">
+                  <li>
+                    <span>Yes, you can still buy a good cheap car</span>
+                  </li>
+                  <li><span>Manhattan rents up 10% from a year ago</span></li>
+                  <li>
+                    <span
+                      >Who wins in the PGA-LIV tie-up? Hint: It's not the
+                      golfers</span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      >Lululemon stands by decision to fire employees who
+                      intervened in robbery</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-lg travel">
+              <h6>CNN TRAVEL</h6>
+              <div class="travel-news">
+                <img
+                  src="images/grace-dvornik-superyacht-private-jet-chef.jpg"
+                  alt=""
+                />
+                <h4>
+                  She got a job on a superyacht. Here's what happened next
+                </h4>
+                <ul class="travel-g">
+                  <li>
+                    <span
+                      >How 'begpackers' became some of Asia's most disliked
+                      travelers</span
+                    >
+                  </li>
+                  <li>
+                    The double-decker airplane seat is back. Here's what it
+                    looks like now
+                  </li>
+                  <li>Dare to bare: 20 of the world's best nude beaches</li>
+                  <li>
+                    <span
+                      >Why an empty plot of sand has sold for a record
+                      $34M</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-lg empty-stack"></div>
+          </div>
+
+          <div class="row feat-sections-row2">
+            <div class="col-12 col-lg sport">
+              <h6>CNN SPORT</h6>
+              <div class="sport-news">
+                <img
+                  src="images/zinchenko-zelensky-shevchenko-soccer.jpg"
+                  alt=""
+                  class=""
+                />
+                <h4>
+                  Ukrainian soccer star Oleksandr Zinchenko confronted by
+                  realities of war in first visit home since invasion
+                </h4>
+                <ul class="sport-g">
+                  <li>
+                    Novak Djokovic breaks Rafael Nadal record as he progresses
+                    to French Open quarterfinals
+                  </li>
+                  <li>Lewis Hamilton lauds 'amazing result' for Mercedes</li>
+                  <li>
+                    One game from greatness. Manchester City beats Manchester
+                    United in FA Cup
+                  </li>
+                  <li>
+                    Barcelona secures dramatic Women's Champions League victory
+                  </li>
+                  <li>
+                    Coco Gauff defeats tennis' rising star in the battle of the
+                    teenagers
+                  </li>
+                  <li>
+                    Police make 31 arrests as animal rights protesters plan to
+                    disrupt horse race
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-lg style">
+              <h6>CNN STYLE</h6>
+              <div class="style-news">
+                <img
+                  src="images/wolfgang-helene-beltracchi-restricted.jpg"
+                  alt=""
+                  class=""
+                />
+                <h4>
+                  The husband-and-wife forgers who fooled the art market — and
+                  made millions
+                </h4>
+                <ul class="style-g">
+                  <li>
+                    <span
+                      >'Mongolian Rhapsody'? Handwritten lyrics suggest Freddie
+                      Mercury considered alternative title</span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      ><i class="bi bi-play-circle play-video"></i>See how they
+                      turned Margot Robbie into a Barbie doll</span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      >Why this morning-after portrait of Faye Dunaway became an
+                      iconic Hollywood moment</span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      >How the costumes of 'American Born Chinese' straddle
+                      fantasy and reality</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-lg opinion">
+              <h6>CNN OPINION</h6>
+              <div class="opinion-news">
+                <img src="images/covid-test-file-050423.jpg" alt="" class="" />
+                <h4>
+                  We're easing out of the pandemic. But that's not what has this
+                  infectious disease expert worried
+                </h4>
+                <ul class="opinion-g">
+                  <li>What King Charles should do now</li>
+                  <li>Vladimir Putin's anxious time</li>
+                  <li>
+                    My family and I barely escaped from Khartoum. Here's what we
+                    owe those left behind.
+                  </li>
+                  <li>
+                    For women, it's past time to give up the ghost of equality
+                  </li>
+                  <li>Why US presidential debates have lost their luster</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row feat-sections-row3">
+            <div class="col-12 col-lg politics">
+              <h6>CNN POLITICS</h6>
+              <div class="politics-news">
+                <img src="" alt="" class="" />
+                <h4>
+                  Senate passes bill to block Biden's student loan forgiveness
+                  program
+                </h4>
+                <ul class="politics-g">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-lg science">
+              <h6>CNN SCIENCE</h6>
+              <div class="science-news">
+                <img src="" alt="" class="" />
+                <h4></h4>
+                <ul class="science-g">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-lg tech">
+              <h6>CNN TECH</h6>
+              <div class="tech-news">
+                <img src="" alt="" class="" />
+                <h4></h4>
+                <ul class="tech-g">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--
+        <div class="row fourth-section">
+          <h2>Featured Sections</h2>
+          <div class="feat-sections-row1">
+            <div class="business">
+              <h5>CNN BUSINESS</h5>
+              <div class="business-news">
+                <img src="images/federal-reserve-050223.jpg" alt="" />
+                <h3>Markets may be overly optimistic about the Fed</h3>
+                <ul class="business-g">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+            <div class="travel">
+              <h5>CNN TRAVEL</h5>
+              <div class="travel-news">
+                <img
+                  src="images/grace-dvornik-superyacht-private-jet-chef.jpg"
+                  alt=""
+                />
+                <h3>
+                  She got a job on a superyacht. Here's what happened next
+                </h3>
+                <ul class="travel-g">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+            <div class="empty-stack"></div>
+          </div>
+          <div class="feat-sections-row2">
+            <div class="sport">
+              <h5>CNN SPORT</h5>
+              <div class="sport-news">
+                <img
+                  src="images/zinchenko-zelensky-shevchenko-soccer.jpg"
+                  alt=""
+                  class=""
+                />
+                <h3>
+                  Ukrainian soccer star Oleksandr Zinchenko confronted by
+                  realities of war in first visit home since invasion
+                </h3>
+                <ul class="sport-g">
+                  <li>
+                    Novak Djokovic breaks Rafael Nadal record as he progresses
+                    to French Open quarterfinals
+                  </li>
+                  <li>Lewis Hamilton lauds 'amazing result' for Mercedes</li>
+                  <li>
+                    One game from greatness. Manchester City beats Manchester
+                    United in FA Cup
+                  </li>
+                  <li>
+                    Barcelona secures dramatic Women's Champions League victory
+                  </li>
+                  <li>
+                    Coco Gauff defeats tennis' rising star in the battle of the
+                    teenagers
+                  </li>
+                  <li>
+                    Police make 31 arrests as animal rights protesters plan to
+                    disrupt horse race
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="style">
+              <h5>CNN STYLE</h5>
+              <div class="style-news">
+                <img
+                  src="images/wolfgang-helene-beltracchi-restricted.jpg"
+                  alt=""
+                  class=""
+                />
+                <h3>
+                  The husband-and-wife forgers who fooled the art market — and
+                  made millions
+                </h3>
+                <ul class="style-g">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+            <div class="opinion">
+              <h5>CNN OPINION</h5>
+              <div class="opinion-news">
+                <img src="images/covid-test-file-050423.jpg" alt="" class="" />
+                <h3>
+                  We're easing out of the pandemic. But that's not what has this
+                  infectious disease expert worried
+                </h3>
+                <ul class="opinion-g">
+                  <li>What King Charles should do now</li>
+                  <li>Vladimir Putin's anxious time</li>
+                  <li>
+                    My family and I barely escaped from Khartoum. Here's what we
+                    owe those left behind.
+                  </li>
+                  <li>
+                    For women, it's past time to give up the ghost of equality
+                  </li>
+                  <li>Why US presidential debates have lost their luster</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="feat-sections-row3">
+            <div class="politics">
+              <h5>CNN POLITICS</h5>
+              <div class="politics-news">
+                <img src="" alt="" class="" />
+                <h3>
+                  Senate passes bill to block Biden's student loan forgiveness
+                  program
+                </h3>
+                <ul class="politics-g">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+            <div class="science">
+              <h5>CNN SCIENCE</h5>
+              <div class="science-news">
+                <img src="" alt="" class="" />
+                <h3></h3>
+                <ul class="science-g">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+            <div class="tech">
+              <h5>CNN TECH</h5>
+              <div class="tech-news">
+                <img src="" alt="" class="" />
+                <h3></h3>
+                <ul class="tech-g">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        -->
+
+        <div class="seventh-section">
+          <h3>Watch It</h3>
+          <h3>Photos You Should See</h3>
+        </div>
+      </section>
+
+      <section class="extra-outer">
+        <div class="container extra-inner">
+          <h2>In Case You Missed It</h2>
+          <div>
+            <div class="extra-items">
+              <img src="images/gas-cars-benin.jpg" alt="" />
+              <p>
+                As the West moves to electric cars, here's where the unwanted
+                gas guzzlers go.
+              </p>
+            </div>
+
+            <div>
+              <ul>
+                <li>
+                  It’s a myth that women don’t want sex as they age, study finds
+                </li>
+                <li>
+                  95-year-old woman dies after being tasered in her Australian
+                  nursing home
+                </li>
+                <li>
+                  Teacher feared dead after shark attack off South Australia
+                </li>
+                <li>
+                  What mosquitoes are most attracted to in human body odor is
+                  revealed
+                </li>
+                <li>
+                  <i>>video</i> Indian PM given a rock star welcome in
+                  Australia. See how crowds greeted him
+                </li>
+                <li>
+                  Death of Russian minister on return from Cuba is latest
+                  unexplained incident involving Moscow’s elites
+                </li>
+                <li>Jeff Bezos and Lauren Sánchez are engaged</li>
+                <li>The good, bad and ugly about BMI</li>
+                <li>
+                  This 15-mile, $6.7B bridge is a symbol of China’s ambitions,
+                  and its problems
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div>
+          <form action="">
+            <input type="text" name="" id="" placeholder="Search CNN..." />
+            <input type="button" value="" />
+          </form>
+        </div>
+
+        <div class="">
+          <div class="ex-top"></div>
+          <div class="ex-bottom"></div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class=""><img src="images/cnn-logo.png" alt="" /> US</div>
+          <div class="social-media"><i></i></div>
+        </div>
+
+        <div class="footer-cpy">
+          <div>
+            Terms of Use <span>Privacy Policy</span><span>Cookie Settings</span
+            ><span>Ad Choices</span><span>Accessibilityy & CC </span
+            ><span>About</span><span>Newsletters</span><span>Transcripts</span>
+          </div>
+
+          <div>
+            © 2023 Cable News Network. A Warner Bros. Discovery Company. All
+            Rights Reserved. <span></span> CNN Sans ™ & © 2016 Cable News
+            Network.
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
