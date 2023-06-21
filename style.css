@@ -12,11 +12,9 @@ body {
 .navbar {
   background: black;
   height: 40px;
-  /* padding: 0 94px 0 80px; */
 }
 
 #toggler {
-  color: white;
   font-size: 25px;
 }
 nav a {
@@ -25,38 +23,23 @@ nav a {
 
 .logo {
   width: 40px;
-  /* height: 100%; */
 }
 
 .nav-link {
   color: white;
 }
 
-/* .right {
-  padding-right: 8px;
-} */
-
 .right span,
 .right i {
-  /* margin-right: 10px; */
-  color: white;
+  margin-right: 10px;
 }
 
 .right button {
   border-radius: 5px;
-  /* padding: 0 10px; */
-  background-color: black;
-  color: white;
-  border: white solid 1px;
+  padding: 0 10px;
 }
 
-/* main {
-  padding: 0 0 0 82px;
-  max-width: 1440px;
-} */
-
 .headlines {
-  text-align: center;
   margin: 15px 0;
 }
 
@@ -117,20 +100,17 @@ nav a {
 .first-1 img,
 .second-mid img,
 .gaia-ntu img {
-  width: 100%;
   height: 350px;
 }
 
 .first-mid img,
 .first-right img {
-  width: 100%;
   height: 180px;
 }
 
 .second-1 img,
 .jimmy-c img,
 .arnold img {
-  width: 100%;
   height: 180px;
 }
 
@@ -225,10 +205,6 @@ nav a {
   margin: 9px 0 15px 0;
 }
 
-.empty-stack {
-  display: block;
-}
-
 .feat-sections-row1 ul,
 .feat-sections-row2 ul,
 .feat-sections-row3 ul {
@@ -240,7 +216,6 @@ nav a {
 .sport img,
 .style img,
 .opinion img {
-  width: 100%;
   height: 245px;
 }
 
@@ -259,7 +234,30 @@ nav a {
   margin-right: 5px;
 }
 
-.extra-outer {
-  background: black;
-  color: white;
+footer {
+  padding-top: 20px;
+}
+
+/*use bootstrap*/
+/* .sub-sections {
+  text-align: center;
+} */
+
+.sub-sections ul {
+  list-style: none;
+}
+
+.sub-sections h3,
+.sub-sections li {
+  cursor: pointer;
+}
+
+.sub-sections h3:hover,
+.sub-sections li:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.footer-bottom_left {
+  height: 40px;
 }

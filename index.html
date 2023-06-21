@@ -23,18 +23,23 @@
   <body>
     <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#collapse_Navbar"
-        ></button>
         <a href="#" target="_blank" rel="noopener noreferrer"
-          ><i class="bi bi-list" id="toggler"></i
+          ><i class="bi bi-list text-white" id="toggler"></i
         ></a>
         <a class="navbar-brand" href="#">
           <img src="images/cnn-logo.png" alt="logo" class="logo" />
         </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse_Navbar"
+          aria-controls="collapse_Navbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
         <div class="collapse navbar-collapse" id="collapse_Navbar">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -73,17 +78,17 @@
             </li>
           </ul>
         </div>
-        <div class="right col-sm">
+        <div class="right col-sm text-white">
           <span>Audio</span>
           <span>Live TV</span>
           <i class="bi bi-search"></i>
-          <button>Log In</button>
+          <button class="border-white text-white bg-black">Log In</button>
         </div>
       </div>
     </nav>
 
     <main>
-      <div class="headlines">
+      <div class="headlines text-center">
         <span class="headline" id="first">India train crash</span>
         <span class="headline">Kathleen Folbigg</span>
         <span class="headline">Zlatan Ibrahimovic</span>
@@ -104,6 +109,7 @@
               say
             </h2>
             <img
+              class="w-100"
               src="images/soldiers-donetsk-ukraine-0531.jpg"
               alt="Ukrainian soldiers fire a Caesar self-propelled howitzer towards Russian troops, amid Russia's attack on Ukraine, Ukraine May 31, 2023"
             />
@@ -134,6 +140,7 @@
           <div class="col-12 col-lg first-mid">
             <div class="news">
               <img
+                class="w-100"
                 src="images/plane-crash-scene-virginia.jpg"
                 alt="Plane crash in Virginia"
               />
@@ -144,6 +151,7 @@
             </div>
             <div class="news">
               <img
+                class="w-100"
                 src="images/india-train-crash-060323.jpg"
                 alt="Train crash in India"
               />
@@ -157,6 +165,7 @@
           <div class="col-12 col-lg first-right">
             <div class="news">
               <img
+                class="w-100"
                 src="images/bison-yellowstone-national-park-file-restricted-102821.jpg"
                 alt="Baby elk in Yellowstone National Park"
               />
@@ -196,6 +205,7 @@
             <h6>MORE TOP STORIES</h6>
             <div class="russian-star">
               <img
+                class="w-100"
                 src="images/daria-kasatkina-060423.jpg"
                 alt="Russian vs Ukrainian female tennis players"
               />
@@ -227,6 +237,7 @@
             <h6>FEATURED</h6>
             <div class="news">
               <img
+                class="w-100"
                 src="images/croatia-dalmatia-trogir-zadar-kornati-national-park-card-image.jpg"
                 alt="mediterranean coast"
               />
@@ -293,6 +304,7 @@
             <h6>TAKE A CLOSER LOOK</h6>
             <div class="jimmy-c">
               <img
+                class="w-100"
                 src="images/jimmy-carter-legacy-refugees.jpg"
                 alt="Pres. Jimmy Carter is seated at his desk in the Oval Office prior to delivering his message on energy."
               />
@@ -333,6 +345,7 @@
           <div class="col-12 col-lg-6 third-mid">
             <div class="gaia-ntu">
               <img
+                class="w-100"
                 src="images/gaia-ntu-timber-building.jpg"
                 alt="Gaia Ntu, Asia's largest timber building"
               />
@@ -365,6 +378,7 @@
             <h6>TAKE A BREAK</h6>
             <div class="arnold">
               <img
+                class="w-100"
                 src="images/arnold-schwarzenegger-052223.jpg"
                 alt="Arnold Schwarzenegger"
               />
@@ -404,7 +418,11 @@
             <div class="col-12 col-lg business">
               <h6>CNN BUSINESS</h6>
               <div class="business-news">
-                <img src="images/federal-reserve-050223.jpg" alt="" />
+                <img
+                  src="images/federal-reserve-050223.jpg"
+                  class="w-100"
+                  alt=""
+                />
                 <h4>Markets may be overly optimistic about the Fed</h4>
                 <ul class="business-g">
                   <li>
@@ -431,6 +449,7 @@
               <div class="travel-news">
                 <img
                   src="images/grace-dvornik-superyacht-private-jet-chef.jpg"
+                  class="w-100"
                   alt=""
                 />
                 <h4>
@@ -457,7 +476,7 @@
                 </ul>
               </div>
             </div>
-            <div class="col-12 col-lg empty-stack"></div>
+            <div class="col-12 col-lg empty-stack d-block"></div>
           </div>
 
           <div class="row feat-sections-row2">
@@ -467,7 +486,7 @@
                 <img
                   src="images/zinchenko-zelensky-shevchenko-soccer.jpg"
                   alt=""
-                  class=""
+                  class="w-100"
                 />
                 <h4>
                   Ukrainian soccer star Oleksandr Zinchenko confronted by
@@ -503,7 +522,7 @@
                 <img
                   src="images/wolfgang-helene-beltracchi-restricted.jpg"
                   alt=""
-                  class=""
+                  class="w-100"
                 />
                 <h4>
                   The husband-and-wife forgers who fooled the art market — and
@@ -540,7 +559,11 @@
             <div class="col-12 col-lg opinion">
               <h6>CNN OPINION</h6>
               <div class="opinion-news">
-                <img src="images/covid-test-file-050423.jpg" alt="" class="" />
+                <img
+                  src="images/covid-test-file-050423.jpg"
+                  alt=""
+                  class="w-100"
+                />
                 <h4>
                   We're easing out of the pandemic. But that's not what has this
                   infectious disease expert worried
@@ -564,7 +587,7 @@
             <div class="col-12 col-lg politics">
               <h6>CNN POLITICS</h6>
               <div class="politics-news">
-                <img src="" alt="" class="" />
+                <img src="" alt="" class="w-100" />
                 <h4>
                   Senate passes bill to block Biden's student loan forgiveness
                   program
@@ -580,7 +603,7 @@
             <div class="col-12 col-lg science">
               <h6>CNN SCIENCE</h6>
               <div class="science-news">
-                <img src="" alt="" class="" />
+                <img src="" alt="" class="w-100" />
                 <h4></h4>
                 <ul class="science-g">
                   <li></li>
@@ -593,7 +616,7 @@
             <div class="col-12 col-lg tech">
               <h6>CNN TECH</h6>
               <div class="tech-news">
-                <img src="" alt="" class="" />
+                <img src="" alt="" class="w-100" />
                 <h4></h4>
                 <ul class="tech-g">
                   <li></li>
@@ -605,169 +628,6 @@
             </div>
           </div>
         </div>
-        <!--
-        <div class="row fourth-section">
-          <h2>Featured Sections</h2>
-          <div class="feat-sections-row1">
-            <div class="business">
-              <h5>CNN BUSINESS</h5>
-              <div class="business-news">
-                <img src="images/federal-reserve-050223.jpg" alt="" />
-                <h3>Markets may be overly optimistic about the Fed</h3>
-                <ul class="business-g">
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </div>
-            </div>
-            <div class="travel">
-              <h5>CNN TRAVEL</h5>
-              <div class="travel-news">
-                <img
-                  src="images/grace-dvornik-superyacht-private-jet-chef.jpg"
-                  alt=""
-                />
-                <h3>
-                  She got a job on a superyacht. Here's what happened next
-                </h3>
-                <ul class="travel-g">
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </div>
-            </div>
-            <div class="empty-stack"></div>
-          </div>
-          <div class="feat-sections-row2">
-            <div class="sport">
-              <h5>CNN SPORT</h5>
-              <div class="sport-news">
-                <img
-                  src="images/zinchenko-zelensky-shevchenko-soccer.jpg"
-                  alt=""
-                  class=""
-                />
-                <h3>
-                  Ukrainian soccer star Oleksandr Zinchenko confronted by
-                  realities of war in first visit home since invasion
-                </h3>
-                <ul class="sport-g">
-                  <li>
-                    Novak Djokovic breaks Rafael Nadal record as he progresses
-                    to French Open quarterfinals
-                  </li>
-                  <li>Lewis Hamilton lauds 'amazing result' for Mercedes</li>
-                  <li>
-                    One game from greatness. Manchester City beats Manchester
-                    United in FA Cup
-                  </li>
-                  <li>
-                    Barcelona secures dramatic Women's Champions League victory
-                  </li>
-                  <li>
-                    Coco Gauff defeats tennis' rising star in the battle of the
-                    teenagers
-                  </li>
-                  <li>
-                    Police make 31 arrests as animal rights protesters plan to
-                    disrupt horse race
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="style">
-              <h5>CNN STYLE</h5>
-              <div class="style-news">
-                <img
-                  src="images/wolfgang-helene-beltracchi-restricted.jpg"
-                  alt=""
-                  class=""
-                />
-                <h3>
-                  The husband-and-wife forgers who fooled the art market — and
-                  made millions
-                </h3>
-                <ul class="style-g">
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </div>
-            </div>
-            <div class="opinion">
-              <h5>CNN OPINION</h5>
-              <div class="opinion-news">
-                <img src="images/covid-test-file-050423.jpg" alt="" class="" />
-                <h3>
-                  We're easing out of the pandemic. But that's not what has this
-                  infectious disease expert worried
-                </h3>
-                <ul class="opinion-g">
-                  <li>What King Charles should do now</li>
-                  <li>Vladimir Putin's anxious time</li>
-                  <li>
-                    My family and I barely escaped from Khartoum. Here's what we
-                    owe those left behind.
-                  </li>
-                  <li>
-                    For women, it's past time to give up the ghost of equality
-                  </li>
-                  <li>Why US presidential debates have lost their luster</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="feat-sections-row3">
-            <div class="politics">
-              <h5>CNN POLITICS</h5>
-              <div class="politics-news">
-                <img src="" alt="" class="" />
-                <h3>
-                  Senate passes bill to block Biden's student loan forgiveness
-                  program
-                </h3>
-                <ul class="politics-g">
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </div>
-            </div>
-            <div class="science">
-              <h5>CNN SCIENCE</h5>
-              <div class="science-news">
-                <img src="" alt="" class="" />
-                <h3></h3>
-                <ul class="science-g">
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </div>
-            </div>
-            <div class="tech">
-              <h5>CNN TECH</h5>
-              <div class="tech-news">
-                <img src="" alt="" class="" />
-                <h3></h3>
-                <ul class="tech-g">
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        -->
 
         <div class="seventh-section">
           <h3>Watch It</h3>
@@ -775,19 +635,22 @@
         </div>
       </section>
 
-      <section class="extra-outer">
-        <div class="container extra-inner">
-          <h2>In Case You Missed It</h2>
-          <div>
-            <div class="extra-items">
-              <img src="images/gas-cars-benin.jpg" alt="" />
+      <section
+        class="container-fluid extra-outer bg-black text-white border-bottom"
+      >
+        <div class="container">
+          <div class="row extra-inner">
+            <h2>In Case You Missed It</h2>
+
+            <div class="col-12 col-lg extra-items">
+              <img src="images/gas-cars-benin.jpg" class="w-100" alt="" />
               <p>
                 As the West moves to electric cars, here's where the unwanted
                 gas guzzlers go.
               </p>
             </div>
 
-            <div>
+            <div class="col-12 col-lg">
               <ul>
                 <li>
                   It’s a myth that women don’t want sex as they age, study finds
@@ -823,35 +686,213 @@
         </div>
       </section>
 
-      <footer>
-        <div>
-          <form action="">
-            <input type="text" name="" id="" placeholder="Search CNN..." />
-            <input type="button" value="" />
-          </form>
-        </div>
+      <footer class="container-fluid bg-black text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <form action="">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Search CNN..."
+                  class="w-100"
+                />
+                <input type="button" value="Search" class="d-none d-lg-block" />
+              </form>
+            </div>
+            <div class="row sub-sections">
+              <div class="col-12 col-lg">
+                <h4>World</h4>
+                <ul class="d-none d-lg-block p-0">
+                  <!-- use bootstrap -->
+                  <li>Africa</li>
+                  <li>Americas</li>
+                  <li>Asia</li>
+                  <li>Australia</li>
+                  <li>China</li>
+                  <li>Europe</li>
+                  <li>India</li>
+                  <li>Middle East</li>
+                  <li>United Kingdom</li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg">
+                <h4>US Pollitics</h4>
+                <ul class="d-none d-lg-block p-0">
+                  <li>The Biden Presidency</li>
+                  <li>Facts First</li>
+                  <li>US Elections</li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg">
+                <h4>Business</h4>
+                <ul class="d-none d-lg-block p-0">
+                  <li>Markets</li>
+                  <li>Tech</li>
+                  <li>Media</li>
+                  <li>Calculators</li>
+                  <li>Videos</li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg">
+                <h4>Health</h4>
+                <ul class="d-none d-lg-block p-0">
+                  <li>Life, But Better</li>
+                  <li>Fitness</li>
+                  <li>Food</li>
+                  <li>Sleep</li>
+                  <li>Mindfulness</li>
+                  <li>Relationships</li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg">
+                <h4>Entertainment</h4>
+                <ul class="d-none d-lg-block p-0">
+                  <li>Movies</li>
+                  <li>Television</li>
+                  <li>Celebrity</li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg">
+                <h4>Tech</h4>
+                <ul class="d-none d-lg-block p-0">
+                  <li>Innovate</li>
+                  <li>Gadget</li>
+                  <li>Foreseeable Future</li>
+                  <li>Mission: Ahead</li>
+                  <li>Upstarts</li>
+                  <li>Work Transformed</li>
+                  <li>Innovative Cities</li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg">
+                <h4>Style</h4>
+                <ul class="d-none d-lg-block p-0">
+                  <li>Arts</li>
+                  <li>Design</li>
+                  <li>Fashion</li>
+                  <li>Architecture</li>
+                  <li>Luxury</li>
+                  <li>Beauty</li>
+                  <li>Video</li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg">
+                <h4>Travel</h4>
+                <ul class="d-none d-lg-block p-0">
+                  <li>Destinations</li>
+                  <li>Food & Drink</li>
+                  <li>Stay</li>
+                  <li>News</li>
+                  <li>Videos</li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg">
+                <h4>Sports</h4>
+                <ul class="d-none d-lg-block p-0">
+                  <li>Football</li>
+                  <li>Tennis</li>
+                  <li>Golf</li>
+                  <li>Motorsport</li>
+                  <li>US Sports</li>
+                  <li>Olympics</li>
+                  <li>Climbing</li>
+                  <li>Esports</li>
+                  <li>Hockey</li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg">
+                <h4>Videos</h4>
+                <ul class="d-none d-lg-block p-0">
+                  <li>Live TV</li>
+                  <li>Digital Studios</li>
+                  <li>CNN Films</li>
+                  <li>HLN</li>
+                  <li>TV Schedule</li>
+                  <li>TV Shows A-Z</li>
+                  <li>CNNVR</li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg">
+                <h4>Features</h4>
+                <ul class="d-none d-lg-block p-0">
+                  <li>As Equals</li>
+                  <li>Call to Earth</li>
+                  <li>Freedom Project</li>
+                  <li>Impact Your World</li>
+                  <li>Inside Africa</li>
+                  <li>2 Degrees</li>
+                  <li>CNN Heroes</li>
+                  <li>All Features</li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg">
+                <h4>Weather</h4>
+                <ul class="d-none d-lg-block p-0">
+                  <li>Climate</li>
+                  <li>Storm Tracker</li>
+                  <li>Wildfire Tracker</li>
+                  <li>Video</li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg">
+                <h4>More</h4>
+                <ul class="d-none d-lg-block p-0">
+                  <li>Photos</li>
+                  <li>Longform</li>
+                  <li>Investigations</li>
+                  <li>CNN Profiles</li>
+                  <li>CNN Leadership</li>
+                  <li>CNN Newsletters</li>
+                  <li>Work for CNN</li>
+                </ul>
+              </div>
+            </div>
 
-        <div class="">
-          <div class="ex-top"></div>
-          <div class="ex-bottom"></div>
-        </div>
+            <div class="row footer-bottom d-flex w-100">
+              <div class="col-12 footer-bottom_left">
+                <img src="images/cnn-logo.png" alt="" class="h-100" /> US
+              </div>
 
-        <div class="footer-bottom">
-          <div class=""><img src="images/cnn-logo.png" alt="" /> US</div>
-          <div class="social-media"><i></i></div>
-        </div>
+              <div class="footer-bottom_right d-flex">
+                <div class="me-2 d-flex">
+                  <span class="me-2">Audio</span><span>Live TV</span>
+                </div>
+                <div class="col-12 d-flex social-media">
+                  <span class="me-2">FOLLOW CNN</span>
+                  <div>
+                    <i class="bi bi-facebook" title="Visit us on Facebook"></i>
+                  </div>
+                  <div>
+                    <i class="bi bi-twitter" title="Visit us on Twitter"></i>
+                  </div>
+                  <div>
+                    <i
+                      class="bi bi-instagram"
+                      title="Visit us on Instagram"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-        <div class="footer-cpy">
-          <div>
-            Terms of Use <span>Privacy Policy</span><span>Cookie Settings</span
-            ><span>Ad Choices</span><span>Accessibilityy & CC </span
-            ><span>About</span><span>Newsletters</span><span>Transcripts</span>
-          </div>
+            <div class="footer-cpy">
+              <div class="footer-cpy_top">
+                <span>Terms of Use</span><span>Privacy Policy</span
+                ><span>Cookie Settings</span><span>Ad Choices</span
+                ><span>Accessibilityy & CC </span><span>About</span
+                ><span>Newsletters</span><span>Transcripts</span>
+              </div>
 
-          <div>
-            © 2023 Cable News Network. A Warner Bros. Discovery Company. All
-            Rights Reserved. <span></span> CNN Sans ™ & © 2016 Cable News
-            Network.
+              <div class="footer-cpy_bottom">
+                <p>
+                  © 2023 Cable News Network. A Warner Bros. Discovery Company.
+                  All Rights Reserved.
+                </p>
+                <p>CNN Sans ™ & © 2016 Cable News Network.</p>
+              </div>
+            </div>
           </div>
         </div>
       </footer>
