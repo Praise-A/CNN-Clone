@@ -3,6 +3,6 @@
 ```
 The Live Site is at:
 
-https://praise-a.github.io/CNN-Clone/
+[link](https://praise-a.github.io/CNN-Clone/)
 
 ```
