@@ -261,3 +261,13 @@ footer {
 .footer-bottom_left {
   height: 40px;
 }
+
+.footer-bottom_right {
+  line-height: 40px;
+}
+
+.footer-bottom_right button {
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 5px;
+}
